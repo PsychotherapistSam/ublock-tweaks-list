@@ -1,0 +1,11 @@
+! Fix reddit image slideshows
+reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
+reddit.com##div>ul>li>figure>a>div>div:has-text(see full image)
+
+! Geizhals: Make page full width of the browser
+geizhals.de##div:style(--max-width-site: 9999px)
+
+! Trakt: Add "Holy Moly" Text
+trakt.tv##.bottom-wrapper:nth-of-type(1)
+trakt.tv##+js(set, ratingsText[10], Holy Moly)
+trakt.tv##+js(set, itemRatingsText[10], Holy Moly)
