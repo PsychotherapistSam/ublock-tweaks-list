@@ -9,3 +9,6 @@ geizhals.de##div:style(--max-width-site: 9999px)
 trakt.tv##.bottom-wrapper:nth-of-type(1)
 trakt.tv##+js(set, ratingsText[10], Holy Moly)
 trakt.tv##+js(set, itemRatingsText[10], Holy Moly)
+
+! YouTube: Shorts in the Notifications
+youtube.com##ytd-notification-renderer:has(a[href*="/shorts/"])
