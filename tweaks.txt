@@ -1,4 +1,9 @@
-! Fix reddit image slideshows
+! Title: Sam's Awesome Filter List
+! Homepage: https://github.com/PsychotherapistSam/ublock-tweaks-list
+! Expires: 6 hours
+! Version: 1
+
+! Reddit: Fix image slideshows
 reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
 reddit.com##div>ul>li>figure>a>div>div:has-text(see full image)
 
