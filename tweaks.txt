@@ -12,3 +12,6 @@ geizhals.de##div:style(--max-width-site: 9999px)
 
 ! YouTube: Shorts in the Notifications
 youtube.com##ytd-notification-renderer:has(a[href*="/shorts/"])
+
+! Proxmox Forum: Remove underlines of unread posts
+forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !important)
