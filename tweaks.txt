@@ -1,7 +1,7 @@
 ! Title: Sam's Awesome Filter List
 ! Homepage: https://github.com/PsychotherapistSam/ublock-tweaks-list
 ! Expires: 6 hours
-! Version: 3
+! Version: 4
 
 ! Reddit: Fix image slideshows
 reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
@@ -14,4 +14,4 @@ geizhals.de##div:style(--max-width-site: 9999px)
 youtube.com##ytd-notification-renderer:has(a[href*="/shorts/"])
 
 ! Proxmox Forum: Remove underlines of unread posts
-forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !important)
+forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none; color: #ff9b51 !important)
