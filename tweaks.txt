@@ -4,8 +4,8 @@
 ! Version: 5
 
 ! Reddit: Fix image slideshows
-reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
-reddit.com##div>ul>li>figure>a>div>div:has-text(see full image)
+new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
+new.reddit.com##div>ul>li>figure>a>div>div:has-text(see full image)
 
 ! Geizhals: Make page full width of the browser
 geizhals.de##div:style(--max-width-site: 9999px)
