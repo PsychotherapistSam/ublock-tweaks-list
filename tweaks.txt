@@ -15,3 +15,7 @@ youtube.com##ytd-notification-renderer:has(a[href*="/shorts/"])
 
 ! Proxmox Forum: Remove underlines of unread posts
 forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !important; color: #ff9b51 !important)
+
+! Nexusmods: Premium banners
+||next.nexusmods.com/assets/images/premium/skyscraper.png$image
+||next.nexusmods.com/assets/images/premium/billboard.png$image
