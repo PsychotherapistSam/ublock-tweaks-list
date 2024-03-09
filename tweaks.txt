@@ -19,3 +19,6 @@ forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !imp
 ! Nexusmods: Premium banners
 ||next.nexusmods.com/assets/images/premium/skyscraper.png$image
 ||next.nexusmods.com/assets/images/premium/billboard.png$image
+
+! Letterboxd: Premium banner
+letterboxd.com##[href^="/pro/"]
