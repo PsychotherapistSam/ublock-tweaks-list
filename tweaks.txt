@@ -1,7 +1,7 @@
 ! Title: Sam & Laura's Awesome Filter List
 ! Homepage: https://github.com/PsychotherapistSam/ublock-tweaks-list
 ! Expires: 6 hours
-! Version: 6
+! Version: 7
 
 ! Reddit: Fix Image Slideshows
 new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
@@ -25,3 +25,6 @@ letterboxd.com##[href^="/pro/"]
 
 ! GG.Deals: Top Banner (Ad)
 gg.deals##.site-banner-top-widget
+
+! Duckduckgo: Remove privacy reminder
+duckduckgo.com##.privacy-reminder.dropdown--region.dropdown
