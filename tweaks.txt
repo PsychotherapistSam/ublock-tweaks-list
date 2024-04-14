@@ -1,24 +1,27 @@
-! Title: Sam's Awesome Filter List
+! Title: Sam & Laura's Awesome Filter List
 ! Homepage: https://github.com/PsychotherapistSam/ublock-tweaks-list
 ! Expires: 6 hours
 ! Version: 6
 
-! Reddit: Fix image slideshows
+! Reddit: Fix Image Slideshows
 new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
 new.reddit.com##div>ul>li>figure>a>div>div:has-text(see full image)
 
-! Geizhals: Make page full width of the browser
+! Geizhals: Make Page Full Width Of The Browser
 geizhals.de##div:style(--max-width-site: 9999px)
 
-! YouTube: Shorts in the Notifications
+! YouTube: Shorts In The Notifications
 youtube.com##ytd-notification-renderer:has(a[href*="/shorts/"])
 
-! Proxmox Forum: Remove underlines of unread posts
+! Proxmox Forum: Remove Underlines Of Unread Posts
 forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !important; color: #ff9b51 !important)
 
-! Nexusmods: Premium banners
+! Nexusmods: Premium Banners
 ||next.nexusmods.com/assets/images/premium/skyscraper.png$image
 ||next.nexusmods.com/assets/images/premium/billboard.png$image
 
 ! Letterboxd: Premium banner
 letterboxd.com##[href^="/pro/"]
+
+! GG.Deals: Top Banner (Ad)
+gg.deals##.site-banner-top-widget
