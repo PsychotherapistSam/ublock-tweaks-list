@@ -20,11 +20,14 @@ forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !imp
 ||next.nexusmods.com/assets/images/premium/skyscraper.png$image
 ||next.nexusmods.com/assets/images/premium/billboard.png$image
 
-! Letterboxd: Premium banner
+! Letterboxd: Premium Banner
 letterboxd.com##[href^="/pro/"]
 
 ! GG.Deals: Top Banner (Ad)
 gg.deals##.site-banner-top-widget
 
-! Duckduckgo: Remove privacy reminder
+! Duckduckgo: Remove Privacy Reminder
 duckduckgo.com##.privacy-reminder.dropdown--region.dropdown
+
+! Dr Martens: Remove Ad Banner
+www.drmartens.com##.odd.product-item-.js-product-tile.js-product-list-item.product__list__item
