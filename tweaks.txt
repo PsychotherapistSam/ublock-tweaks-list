@@ -1,7 +1,7 @@
 ! Title: Sam & Laura's Awesome Filter List
 ! Homepage: https://github.com/PsychotherapistSam/ublock-tweaks-list
 ! Expires: 6 hours
-! Version: 8
+! Version: 9
 
 ! Reddit: Fix Image Slideshows
 new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
@@ -36,3 +36,6 @@ www.drmartens.com##.odd.product-item-.js-product-tile.js-product-list-item.produ
 www.jacobin.de##.bg-white.py-4.border-stone-400.border-y.my-\[2em\].col-span-12.z-10.my-24.w-full.relative.block.group
 www.jacobin.de##.border-black.border.backdrop-blur-xl.mx-4vw.rounded-lg.px-8.py-6.justify-center.items-center.md\:flex-nowrap.flex-wrap.inline-flex
 ||spenden.twingle.de/brumaire-verlag-gmbh/deine-jacobin-spende/tw64ce9b99d5c09/widget/_6en5hea$subdocument
+
+! Netzpolitik: Remove Donation Banner
+netzpolitik.org###banner-small
