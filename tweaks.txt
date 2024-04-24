@@ -40,5 +40,6 @@ www.jacobin.de##.border-black.border.backdrop-blur-xl.mx-4vw.rounded-lg.px-8.py-
 ! Netzpolitik: Remove Donation Banner
 netzpolitik.org###banner-small
 
-! taz: Remove Donation Banner
+! taz: Remove Donation Banner & Box
 taz.de##.tziBottom.sect_text
+taz.de##div#tzi-paywahl-fg.alwaysmin.minimized.tziFgContainer2021:nth-of-type(5)
