@@ -39,3 +39,6 @@ www.jacobin.de##.border-black.border.backdrop-blur-xl.mx-4vw.rounded-lg.px-8.py-
 
 ! Netzpolitik: Remove Donation Banner
 netzpolitik.org###banner-small
+
+! taz: Remove Donation Banner
+taz.de##.tziBottom.sect_text
