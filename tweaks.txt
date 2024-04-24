@@ -42,4 +42,4 @@ netzpolitik.org###banner-small
 
 ! taz: Remove Donation Banner & Box
 taz.de##.tziBottom.sect_text
-taz.de##div#tzi-paywahl-fg.alwaysmin.minimized.tziFgContainer2021:nth-of-type(5)
+##.netzpolitik-cta-2
