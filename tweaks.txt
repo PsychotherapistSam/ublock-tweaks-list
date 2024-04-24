@@ -1,7 +1,7 @@
 ! Title: Sam & Laura's Awesome Filter List
 ! Homepage: https://github.com/PsychotherapistSam/ublock-tweaks-list
 ! Expires: 6 hours
-! Version: 7
+! Version: 8
 
 ! Reddit: Fix Image Slideshows
 new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
@@ -31,3 +31,6 @@ duckduckgo.com##.privacy-reminder.dropdown--region.dropdown
 
 ! Dr Martens: Remove Ad Banner
 www.drmartens.com##.odd.product-item-.js-product-tile.js-product-list-item.product__list__item
+
+! Jacobin Magazin: Remove Book Ad
+www.jacobin.de##.bg-white.py-4.border-stone-400.border-y.my-\[2em\].col-span-12.z-10.my-24.w-full.relative.block.group
