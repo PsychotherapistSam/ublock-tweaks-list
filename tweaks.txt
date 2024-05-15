@@ -1,7 +1,7 @@
 ! Title: Sam & Laura's Awesome Filter List
 ! Homepage: https://github.com/PsychotherapistSam/ublock-tweaks-list
 ! Expires: 6 hours
-! Version: 9
+! Version: 10
 
 ! Reddit: Fix Image Slideshows
 new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
