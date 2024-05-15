@@ -1,7 +1,7 @@
 ! Title: Sam & Laura's Awesome Filter List
 ! Homepage: https://github.com/PsychotherapistSam/ublock-tweaks-list
 ! Expires: 6 hours
-! Version: 10
+! Version: 11
 
 ! Reddit: Fix Image Slideshows
 new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
@@ -44,5 +44,6 @@ netzpolitik.org###banner-small
 ! taz: Remove Donation Banner & Box
 taz.de##.tziBottom.sect_text
 
-! Proton Mail: Remove whitespace (margin) in left sidebar
+! Proton Mail: Remove whitespace (margin) in left sidebar & Get Apps Button
 mail.proton.me##.navigation-link-header-group:style(margin-top: 0 !important;)
+mail.proton.me##.text-center.inline-block.button-outline-weak.button-medium.w-full.button
