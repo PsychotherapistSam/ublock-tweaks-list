@@ -43,3 +43,6 @@ netzpolitik.org###banner-small
 
 ! taz: Remove Donation Banner & Box
 taz.de##.tziBottom.sect_text
+
+! Proton Mail: Remove whitespace (margin) in left sidebar
+mail.proton.me##.navigation-link-header-group:style(margin-top: 0 !important;)
