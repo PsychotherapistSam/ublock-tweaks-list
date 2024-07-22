@@ -52,3 +52,5 @@ mail.proton.me##.text-center.inline-block.button-outline-weak.button-medium.w-fu
 ! MyDealz: Remove Ad Banner [Laura]
 ||static.mydealz.de/srennab/raw/large_horizontal_foreground*/216_1/re/*w/qt/80/216_1.png$image
 
+! Starbreeze: Remove Newsletter Banner [Laura]
+www.paydaythegame.com##.pdtgfooternewsletter
