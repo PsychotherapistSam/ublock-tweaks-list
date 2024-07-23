@@ -19,6 +19,9 @@ forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !imp
 ! Nexusmods: Premium Banners [Laura]
 ||next.nexusmods.com/assets/images/premium/skyscraper.png$image
 ||next.nexusmods.com/assets/images/premium/billboard.png$image
+www.nexusmods.com###nonPremiumBanner
+
+
 
 ! Letterboxd: Premium Banner [Laura]
 letterboxd.com##[href^="/pro/"]
