@@ -57,6 +57,3 @@ mail.proton.me##.text-center.inline-block.button-outline-weak.button-medium.w-fu
 
 ! Starbreeze: Remove Newsletter Banner [Laura]
 www.paydaythegame.com##.pdtgfooternewsletter
-
-! Hetzner: Cookie Banner
-www.hetzner.com##.text-center.modal-content
