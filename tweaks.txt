@@ -57,3 +57,7 @@ mail.proton.me##.text-center.inline-block.button-outline-weak.button-medium.w-fu
 
 ! Starbreeze: Remove Newsletter Banner [Laura]
 www.paydaythegame.com##.pdtgfooternewsletter
+
+! Anwaltsblatt: Remove Ad Banner [Laura]
+anwaltsblatt.anwaltverein.de##.banner_wrap.banner_content_ad
+
