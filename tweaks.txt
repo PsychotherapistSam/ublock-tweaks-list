@@ -21,13 +21,11 @@ forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !imp
 ||next.nexusmods.com/assets/images/premium/billboard.png$image
 www.nexusmods.com###nonPremiumBanner
 
-
-
 ! Letterboxd: Premium Banner [Laura]
 letterboxd.com##[href^="/pro/"]
 
 ! GG.Deals: Top Banner [Laura]
-gg.deals##.with-image.site-banner-content-widget
+gg.deals##.with-image.gg-full-content-widget
 
 ! Duckduckgo: Remove Privacy Reminder [Sam]
 duckduckgo.com##.privacy-reminder.dropdown--region.dropdown
