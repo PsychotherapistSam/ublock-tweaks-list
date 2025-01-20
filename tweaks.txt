@@ -25,7 +25,7 @@ www.nexusmods.com###nonPremiumBanner
 letterboxd.com##[href^="/pro/"]
 
 ! GG.Deals: Top Banner [Laura]
-gg.deals##.with-image.gg-full-content-widget
+gg.deals##.site-banner-top-widget
 
 ! Duckduckgo: Remove Privacy Reminder [Sam]
 duckduckgo.com##.privacy-reminder.dropdown--region.dropdown
