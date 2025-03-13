@@ -7,6 +7,9 @@
 new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
 new.reddit.com##div>ul>li>figure>a>div>div:has-text(see full image)
 
+! Reddit: Disable Auto-Translation of contents after a Google Search redirect [Sam]
+reddit.com*$removeparam=tl
+
 ! Geizhals: Make Page Full Width Of The Browser [Sam]
 geizhals.de##div:style(--max-width-site: 9999px)
 
