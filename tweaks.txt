@@ -16,7 +16,7 @@ geizhals.de##div:style(--max-width-site: 9999px)
 ! YouTube: Shorts In The Notifications [Sam]
 youtube.com##ytd-notification-renderer:has(a[href*="/shorts/"])
 
-! YouTube: Remove "Translate to" Button Below Each Comment
+! YouTube: Remove "Translate to" Button Below Each Comment [Sam]
 youtube.com##ytd-tri-state-button-view-model.translate-button.style-scope.ytd-comment-view-model
 
 ! Proxmox Forum: Remove Underlines Of Unread Posts [Sam]
