@@ -16,6 +16,9 @@ geizhals.de##div:style(--max-width-site: 9999px)
 ! YouTube: Shorts In The Notifications [Sam]
 youtube.com##ytd-notification-renderer:has(a[href*="/shorts/"])
 
+! YouTube: Remove "Translate to" Button Below Each Comment
+youtube.com##ytd-tri-state-button-view-model.translate-button.style-scope.ytd-comment-view-model
+
 ! Proxmox Forum: Remove Underlines Of Unread Posts [Sam]
 forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !important; color: #ff9b51 !important)
 
@@ -62,4 +65,3 @@ www.paydaythegame.com##.pdtgfooternewsletter
 
 ! Anwaltsblatt: Remove Ad Banner [Laura]
 anwaltsblatt.anwaltverein.de##.banner_wrap.banner_content_ad
-
