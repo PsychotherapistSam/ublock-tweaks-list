@@ -65,3 +65,7 @@ www.paydaythegame.com##.pdtgfooternewsletter
 
 ! Anwaltsblatt: Remove Ad Banner [Laura]
 anwaltsblatt.anwaltverein.de##.banner_wrap.banner_content_ad
+
+! WZStats: Remove VPN ads
+wzstats.gg##app-desktop-takeover-ad
+wzstats.gg##app-350x100-dynamic-ad
