@@ -76,3 +76,5 @@ banking.dkb.de##.section-message.eAgrhd.SectionMessagestyles__StyledSectionMessa
 ! Geizhals: Verivox Werbung, Footer und Blog [Laura]
 geizhals.de##.no-tarife.startpage__ratgeber
 geizhals.de##.gh-footer
+geizhals.de##.card.startpage__hero
+geizhals.de##.marketing-box
