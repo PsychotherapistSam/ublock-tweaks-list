@@ -1,83 +1,56 @@
-! Title: Sam & Laura's Awesome Filter List
-! Homepage: https://github.com/PsychotherapistSam/ublock-tweaks-list
-! Expires: 6 hours
-! Version: 11
-
-! Reddit: Fix Image Slideshows [Sam]
-new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
-new.reddit.com##div>ul>li>figure>a>div>div:has-text(see full image)
-
-! Reddit: Disable Auto-Translation of contents after a Google Search redirect [Sam]
-reddit.com*$removeparam=tl
-
-! Geizhals: Make Page Full Width Of The Browser [Sam]
-geizhals.de##div:style(--max-width-site: 9999px)
-
-! YouTube: Shorts In The Notifications [Sam]
+! Youtube
+! Shorts In Notifications 
 youtube.com##ytd-notification-renderer:has(a[href*="/shorts/"])
-
-! YouTube: Remove "Translate to" Button Below Each Comment [Sam]
+! Remove "Translate to" Button Below Each Comment
 youtube.com##ytd-tri-state-button-view-model.translate-button.style-scope.ytd-comment-view-model
 
-! Proxmox Forum: Remove Underlines Of Unread Posts [Sam]
+! Reddit
+! Fix Image Slideshows 
+new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
+new.reddit.com##div>ul>li>figure>a>div>div:has-text(see full image)
+! Disable Auto-Translation of contents after a Google Search redirect 
+reddit.com*$removeparam=tl
+
+! Duckduckgo: Remove Privacy Reminder
+duckduckgo.com##.privacy-reminder.dropdown--region.dropdown
+! Letterboxd: Premium Banner
+letterboxd.com##[href^="/pro/"]
+! Proxmox Forum: Remove Underlines Of Unread Posts 
 forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !important; color: #ff9b51 !important)
 
-! Nexusmods: Premium Banners [Laura]
-||next.nexusmods.com/assets/images/premium/skyscraper.png$image
-||next.nexusmods.com/assets/images/premium/billboard.png$image
-www.nexusmods.com###nonPremiumBanner
-
-! Letterboxd: Premium Banner [Laura]
-letterboxd.com##[href^="/pro/"]
-
-! GG.Deals: Top Banner [Laura]
-gg.deals##.site-banner-top-widget
-gg.deals##.with-image.gg-full-content-widget
-
-! Duckduckgo: Remove Privacy Reminder [Sam]
-duckduckgo.com##.privacy-reminder.dropdown--region.dropdown
-
-! Dr Martens: Remove Ad Banner [Laura]
-www.drmartens.com##.odd.product-item-.js-product-tile.js-product-list-item.product__list__item
-
-! Jacobin Magazin: Remove Book Ad, Cookie Banner & "Donate" Box [Laura]
-www.jacobin.de##.bg-white.py-4.border-stone-400.border-y.my-\[2em\].col-span-12.z-10.my-24.w-full.relative.block.group
-www.jacobin.de##.border-black.border.backdrop-blur-xl.mx-4vw.rounded-lg.px-8.py-6.justify-center.items-center.md\:flex-nowrap.flex-wrap.inline-flex
-||spenden.twingle.de/brumaire-verlag-gmbh/deine-jacobin-spende/tw64ce9b99d5c09/widget/_6en5hea$subdocument
-
-! Netzpolitik: Remove Donation Banner [Laura]
-netzpolitik.org###banner-small
-##.netzpolitik-cta-2
-
-! taz: Remove Donation Banner & Box [Laura]
-taz.de##.tziBottom.sect_text
-taz.de##div#tzi-paywahl-fg.alwaysmin.minimized.tziFgContainer2021
-
-! Proton Mail: Remove whitespace (margin) in left sidebar & Get Apps Button [Sam]
-mail.proton.me##.navigation-link-header-group:style(margin-top: 0 !important;)
-mail.proton.me##.text-center.inline-block.button-outline-weak.button-medium.w-full.button
-
-! MyDealz: Remove Ad Banner [Laura]
-||static.mydealz.de/srennab/raw/large_horizontal_foreground*/216_1/re/*w/qt/80/216_1.png$image
-
-! Starbreeze: Remove Newsletter Banner [Laura]
-www.paydaythegame.com##.pdtgfooternewsletter
-
-! Anwaltsblatt: Remove Ad Banner [Laura]
-anwaltsblatt.anwaltverein.de##.banner_wrap.banner_content_ad
-
-! WZStats: Remove VPN ads
-wzstats.gg##app-desktop-takeover-ad
-wzstats.gg##app-350x100-dynamic-ad
-
-! DKB: Kreditkarten Annoyances [Laura]
-banking.dkb.de##.section-message.eAgrhd.SectionMessagestyles__StyledSectionMessages-sc-1mms111-0
-
-! Geizhals: Verivox Werbung, Footer und Blog [Laura]
+! Geizhals
+! Make Page Full Width Of The Browser 
+geizhals.de##div:style(--max-width-site: 9999px)
+! Remove Ebay Listings 
+geizhals.de##.offer:has(.gh_offerlist__merchant_logo[src="https://gzhls.at/b/logos/198223.gif"])
+! Verivox Werbung, Footer und Blog
 geizhals.de##.no-tarife.startpage__ratgeber
 geizhals.de##.gh-footer
 geizhals.de##.card.startpage__hero
 geizhals.de##.marketing-box
 
-! Geizhals: Remove Ebay Listings [Sam]
-geizhals.de##.offer:has(.gh_offerlist__merchant_logo[src="https://gzhls.at/b/logos/198223.gif"])
+! MyDealz: Remove Ad Banner 
+||static.mydealz.de/srennab/raw/large_horizontal_foreground*/216_1/re/*w/qt/80/216_1.png$image
+
+! GG.Deals: Top Banner 
+gg.deals##.site-banner-top-widget
+gg.deals##.with-image.gg-full-content-widget
+
+! Nexusmods: Premium Banners 
+||next.nexusmods.com/assets/images/premium/skyscraper.png$image
+||next.nexusmods.com/assets/images/premium/billboard.png$image
+www.nexusmods.com###nonPremiumBanner
+
+! Starbreeze: Remove Newsletter Banner 
+www.paydaythegame.com##.pdtgfooternewsletter
+! WZStats: Remove VPN ads
+wzstats.gg##app-desktop-takeover-ad
+wzstats.gg##app-350x100-dynamic-ad
+
+! Proton Mail: Remove whitespace (margin) in left sidebar & Get Apps Button 
+mail.proton.me##.navigation-link-header-group:style(margin-top: 0 !important;)
+mail.proton.me##.text-center.inline-block.button-outline-weak.button-medium.w-full.button
+
+! DKB: Kreditkarten Annoyances 
+banking.dkb.de##.section-message.eAgrhd.SectionMessagestyles__StyledSectionMessages-sc-1mms111-0
+banking.dkb.de##.kSLAfr.shop__sc-125lt4a-2._sui-product-tile-hero--horizontal-on-mobile_1xt2k_385._sui-product-tile-hero_1xt2k_256
