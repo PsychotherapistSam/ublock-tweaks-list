@@ -72,3 +72,7 @@ wzstats.gg##app-350x100-dynamic-ad
 
 ! DKB: Kreditkarten Annoyances [Laura]
 banking.dkb.de##.section-message.eAgrhd.SectionMessagestyles__StyledSectionMessages-sc-1mms111-0
+
+! Geizhals: Verivox Werbung, Footer und Blog [Laura]
+geizhals.de##.no-tarife.startpage__ratgeber
+geizhals.de##.gh-footer
