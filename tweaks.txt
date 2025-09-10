@@ -69,3 +69,6 @@ anwaltsblatt.anwaltverein.de##.banner_wrap.banner_content_ad
 ! WZStats: Remove VPN ads
 wzstats.gg##app-desktop-takeover-ad
 wzstats.gg##app-350x100-dynamic-ad
+
+! DKB: Kreditkarten Annoyances [Laura]
+banking.dkb.de##.section-message.eAgrhd.SectionMessagestyles__StyledSectionMessages-sc-1mms111-0
