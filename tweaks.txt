@@ -78,3 +78,6 @@ geizhals.de##.no-tarife.startpage__ratgeber
 geizhals.de##.gh-footer
 geizhals.de##.card.startpage__hero
 geizhals.de##.marketing-box
+
+! Geizhals: Remove Ebay Listings [Sam]
+geizhals.de##.offer:has(.gh_offerlist__merchant_logo[src="https://gzhls.at/b/logos/198223.gif"])
