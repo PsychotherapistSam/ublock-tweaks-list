@@ -53,4 +53,4 @@ mail.proton.me##.text-center.inline-block.button-outline-weak.button-medium.w-fu
 
 ! DKB: Kreditkarten Annoyances 
 banking.dkb.de##.section-message.eAgrhd.SectionMessagestyles__StyledSectionMessages-sc-1mms111-0
-banking.dkb.de##.section-message:has(._sui-message__top-section__body__title_4um9e_197:has-text(Nutze die Vorteile unserer Kreditkarte)
+banking.dkb.de##div[role="status"]:has-text(Nutze die Vorteile unserer Kreditkarte)
