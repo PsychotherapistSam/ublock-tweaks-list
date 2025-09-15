@@ -10,6 +10,8 @@ new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
 new.reddit.com##div>ul>li>figure>a>div>div:has-text(see full image)
 ! Disable Auto-Translation of contents after a Google Search redirect 
 reddit.com*$removeparam=tl
+! Remove games drawer
+www.reddit.com##faceplate-tracker[noun="games_drawer"], faceplate-tracker[noun="games_drawer"] + hr
 
 ! Duckduckgo: Remove Privacy Reminder
 duckduckgo.com##.privacy-reminder.dropdown--region.dropdown
@@ -54,6 +56,3 @@ mail.proton.me##.text-center.inline-block.button-outline-weak.button-medium.w-fu
 ! DKB: Kreditkarten Annoyances 
 banking.dkb.de##.section-message.eAgrhd.SectionMessagestyles__StyledSectionMessages-sc-1mms111-0
 banking.dkb.de##div[role="status"]:has-text(Nutze die Vorteile unserer Kreditkarte)
-
-! Reddit: Remove games drawer
-www.reddit.com##faceplate-tracker[noun="games_drawer"], faceplate-tracker[noun="games_drawer"] + hr
