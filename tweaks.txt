@@ -12,6 +12,8 @@ new.reddit.com##div>ul>li>figure>a>div>div:has-text(see full image)
 reddit.com*$removeparam=tl
 ! Remove games drawer
 www.reddit.com##faceplate-tracker[noun="games_drawer"], faceplate-tracker[noun="games_drawer"] + hr
+! Remove mobile app nag
+www.reddit.com###right-rail-experience-root > faceplate-tracker
 
 ! Duckduckgo: Remove Privacy Reminder
 duckduckgo.com##.privacy-reminder.dropdown--region.dropdown
