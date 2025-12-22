@@ -4,6 +4,16 @@ youtube.com##ytd-notification-renderer:has(a[href*="/shorts/"])
 ! Remove "Translate to" Button Below Each Comment
 youtube.com##ytd-tri-state-button-view-model.translate-button.style-scope.ytd-comment-view-model
 
+! https://www.reddit.com/r/youtube/comments/1fkkcn1/comment/lnw8xu0
+! Changing the amount of videos per row 
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-items-per-row: 6 !important;) 
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-posts-per-row: 6 !important;) 
+! Using full page width for video grids 
+youtube.com##ytd-two-column-browse-results-renderer.grid-6-columns:style(width: 100% !important;) 
+youtube.com##ytd-two-column-browse-results-renderer.grid:not(.grid-disabled):style(max-width: 100% !important;) 
+! Removing the gap in the 2nd row
+youtube.com##ytd-rich-grid-renderer:style(--ytd-rich-grid-gutter-margin: 0px !important;) 
+
 ! Reddit
 ! Fix Image Slideshows 
 new.reddit.com##div>ul>li>figure>a>div>img:style(max-height: 700px)
