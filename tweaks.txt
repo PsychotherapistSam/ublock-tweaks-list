@@ -3,6 +3,8 @@
 youtube.com##ytd-notification-renderer:has(a[href*="/shorts/"])
 ! Remove "Translate to" Button Below Each Comment
 youtube.com##ytd-tri-state-button-view-model.translate-button.style-scope.ytd-comment-view-model
+! Force "frosted glass"
+youtube.com###movie_player:style(--yt-frosted-glass-backdrop-filter-override: unset !important)
 
 ! https://www.reddit.com/r/youtube/comments/1fkkcn1/comment/lnw8xu0
 ! Changing the amount of videos per row 
