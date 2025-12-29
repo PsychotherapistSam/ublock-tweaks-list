@@ -69,3 +69,6 @@ mail.proton.me##.text-center.inline-block.button-outline-weak.button-medium.w-fu
 banking.dkb.de##.section-message.eAgrhd.SectionMessagestyles__StyledSectionMessages-sc-1mms111-0
 banking.dkb.de##div[role="status"]:has-text(Nutze die Vorteile unserer Kreditkarte)
 banking.dkb.de##a[data-testid="shop_hero-tile-visa-credit-card"]
+
+! Twitter (formerly X)
+x.com##div.absolute.inset-0.z-50:has(svg[data-icon="icon-safety"])
