@@ -72,3 +72,6 @@ banking.dkb.de##a[data-testid="shop_hero-tile-visa-credit-card"]
 
 ! Twitter (formerly X)
 x.com##div.absolute.inset-0.z-50:has(svg[data-icon="icon-safety"])
+
+! Amazon
+||m.media-amazon.com/images/I/21N3NfGU0iL.jpg$image
