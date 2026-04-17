@@ -29,6 +29,7 @@ www.reddit.com###right-rail-experience-root > faceplate-tracker
 duckduckgo.com##.privacy-reminder.dropdown--region.dropdown
 ! Letterboxd: Premium Banner
 letterboxd.com##[href^="/pro/"]
+letterboxd.com##.section.featured-video-section
 ! Proxmox Forum: Remove Underlines Of Unread Posts 
 forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !important; color: #ff9b51 !important)
 
