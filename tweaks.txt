@@ -36,8 +36,6 @@ forum.proxmox.com##.is-unread .structItem-title:style(text-decoration: none !imp
 ! Geizhals
 ! Make Page Full Width Of The Browser 
 geizhals.de##div:style(--max-width-site: 9999px)
-! Remove Ebay Listings 
-geizhals.de##.offer:has(.gh_offerlist__merchant_logo[src="https://gzhls.at/b/logos/198223.gif"])
 ! Verivox Werbung, Footer und Blog
 geizhals.de##.no-tarife.startpage__ratgeber
 geizhals.de##.gh-footer
